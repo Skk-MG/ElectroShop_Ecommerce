@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electroshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <section class="contenedor">
+
+        <header class="header-mobile">
+            <h1 class="logo">Lorem, ipsum dolor.</h1>
+
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+
+        <aside>
+
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+
+            <header>
+                <h1 class="logo">Lorem, ipsum dolor.</h1>
+            </header>
+
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+
+                    <li>
+                        <button id="ribas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribas</button>
+                    </li>
+
+                    <li>
+                        <button id="ribeys" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribeys</button>
+                    </li>
+
+                    <li>
+                        <button id="ribs" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribs</button>
+                    </li>
+
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numeroCarrito" class="numeroCarrito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="texto-footer">Lorem ipsum dolor sit amet.</p>
+            </footer>
+        
+        </aside>
+    
+        <main>
+
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+
+            <div id="contenedor-productos" class="contenedor-productos">
+
+            </div>
+
+        </main>
+
+    </section>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
