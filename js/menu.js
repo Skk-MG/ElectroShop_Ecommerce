@@ -1,15 +1,12 @@
-const openMenu = document.querySelector('#open-menu');
-const closeMenu = document.querySelector('#close-menu');
+const openMenu = document.querySelector('#abrirMenu');
+const closeMenu = document.querySelector('#cerrarMenu');
 const asideMenu = document.querySelector('aside');
 
 openMenu.addEventListener("click", () => {
-    asideMenu.classList.add("aside-visible")
+    asideMenu.classList.add("asideVisible")
 });
 
 closeMenu.addEventListener("click", () => {
-    asideMenu.classList.remove("aside-visible")
+    asideMenu.classList.remove("asideVisible")
 });
 
-botonesCategorias.forEach( boton => boton.addEventListener("click", () => {
-    aside.classList.remove("aside-visible");
-}));

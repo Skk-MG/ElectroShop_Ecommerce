@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electroshop</title>
+    <title>ElectroShop</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -11,61 +12,67 @@
     
     <section class="contenedor">
 
-        <header class="header-mobile">
-            <h1 class="logo">Lorem, ipsum dolor.</h1>
+        <header class="headerMobile">
+            <h1 class="logo">Electro-Shop⚡</h1>
 
-            <button class="open-menu" id="open-menu">
+            <button class="abrirMenu" id="abrirMenu">
                 <i class="bi bi-list"></i>
             </button>
         </header>
 
         <aside>
 
-            <button class="close-menu" id="close-menu">
+            <button class="cerrarMenu" id="cerrarMenu">
                 <i class="bi bi-x"></i>
             </button>
 
             <header>
-                <h1 class="logo">Lorem, ipsum dolor.</h1>
+                <h1 class="logo">Electro-Shop⚡</h1>
             </header>
 
             <nav>
                 <ul class="menu">
                     <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                        <button id="todos" class="botonMenu botonCategoria active">Todos los productos</button>
                     </li>
 
                     <li>
-                        <button id="ribas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribas</button>
+                        <button id="ribas" class="botonMenu botonCategoria">Ribas</button>
                     </li>
 
                     <li>
-                        <button id="ribeys" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribeys</button>
+                        <button id="ribeys" class="botonMenu botonCategoria">Ribeys</button>
                     </li>
 
                     <li>
-                        <button id="ribs" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Ribs</button>
+                        <button id="ribs" class="botonMenu botonCategoria">Ribs</button>
+                    </li>
+                    <li>
+                        <button id="loremA" class="botonMenu botonCategoria">LoremA</button>
+                    </li>
+                    <li>
+                        <button id="loremB" class="botonMenu botonCategoria">LoremB</button>
                     </li>
 
                     <li>
-                        <a class="boton-menu boton-carrito" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> Carrito <span id="numeroCarrito" class="numeroCarrito">0</span>
+                        <a class="botonMenu botonCarrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numeroCarrito" class="numeroCarrito">0</span>
                         </a>
                     </li>
                 </ul>
             </nav>
 
             <footer>
-                <p class="texto-footer">Lorem ipsum dolor sit amet.</p>
+                <p class="textoFooter">Hecho por Martin Garcia para CoderHouse - Terminado en --/--/----</p>
             </footer>
         
         </aside>
     
         <main>
 
-            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <h2 id="tituloPrincipal" class="tituloPrincipal">Todos los productos</h2>
 
-            <div id="contenedor-productos" class="contenedor-productos">
+            <div id="contenedorProductos" class="contenedorProductos">
 
             </div>
 
@@ -73,6 +80,9 @@
 
     </section>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/data.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
 </body>
