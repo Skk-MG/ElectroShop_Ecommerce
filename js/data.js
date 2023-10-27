@@ -14,6 +14,7 @@ const productos = [
     {
         id: "ribas-02",
         titulo: "Riba 02",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribas/02.png",
         categoria: {
             nombre: "Ribas",
@@ -24,6 +25,7 @@ const productos = [
     {
         id: "ribas-03",
         titulo: "Riba 03",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribas/03.png",
         categoria: {
             nombre: "Ribas",
@@ -34,6 +36,7 @@ const productos = [
     {
         id: "ribas-04",
         titulo: "Riba 04",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribas/04.png",
         categoria: {
             nombre: "Ribas",
@@ -46,6 +49,7 @@ const productos = [
     {
         id: "ribeys-01",
         titulo: "Ribey 01",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribeys/01.png",
         categoria: {
             nombre: "Ribeys",
@@ -56,6 +60,7 @@ const productos = [
     {
         id: "ribeys-02",
         titulo: "Ribey 02",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribeys/02.png",
         categoria: {
             nombre: "Ribeys",
@@ -66,6 +71,7 @@ const productos = [
     {
         id: "ribeys-03",
         titulo: "Ribey 03",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribeys/03.png",
         categoria: {
             nombre: "Ribeys",
@@ -76,6 +82,7 @@ const productos = [
     {
         id: "ribeys-04",
         titulo: "Ribey 04",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribeys/04.png",
         categoria: {
             nombre: "Ribeys",
@@ -88,6 +95,7 @@ const productos = [
     {
         id: "ribs-01",
         titulo: "Rib 01",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribs/01.png",
         categoria: {
             nombre: "Ribs",
@@ -98,6 +106,7 @@ const productos = [
     {
         id: "ribs-02",
         titulo: "Rib 02",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribs/02.png",
         categoria: {
             nombre: "Ribs",
@@ -108,6 +117,7 @@ const productos = [
     {
         id: "ribs-03",
         titulo: "Rib 03",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribs/03.png",
         categoria: {
             nombre: "Ribs",
@@ -118,6 +128,7 @@ const productos = [
     {
         id: "ribs-04",
         titulo: "Rib 04",
+        altDesc: "loreeeeeeeeeem",
         imagen: "./assets/ribs/04.png",
         categoria: {
             nombre: "Ribs",

@@ -7,6 +7,7 @@ const numeroCarrito = document.querySelector('#numeroCarrito');
 let productosEnCarrito;
 let productosEnCarritoLS = localStorage.getItem("productosEnCarrito")
 
+
 if (productosEnCarritoLS) {
     productosEnCarrito = JSON.parse(productosEnCarritoLS);
     actualizarNumeroCarrito();
@@ -23,7 +24,7 @@ function cargarProductos(productosElegidos) {
         const div = document.createElement("div");
         div.classList.add('producto');
         div.innerHTML = `
-        <img class="productoImagen" src="${producto.imagen}" alt="${producto.altDesc}">
+        <img id="${producto.id}" class="productoImagen" src="${producto.imagen}" alt="${producto.altDesc}">
         <div class="productoDetalles">
             <h3 class="productoTitulo">${producto.titulo}</h3>
             <p class="productoPrecio">$${producto.precio}</p>

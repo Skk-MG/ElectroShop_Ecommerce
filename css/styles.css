@@ -128,11 +128,18 @@ main {
     border-radius: 1rem;
 }
 
+.productoImagen:hover {
+    box-shadow: 8px 8px 28px 1px rgba(0, 0, 0, 0.24); 
+    transform: translateY(-5px); 
+    cursor: pointer;
+}
+
 .productoDetalles {
     background-color: var(--clr-main);
     color: var(--clr-main-light);
     padding: 0.5rem;
-    border-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     margin-top: -2rem;
     position: relative;
     display: flex;
@@ -164,6 +171,18 @@ main {
 .productoAgregar:active { 
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
     transform: translateY(3px); 
+}
+
+#carouselExample {
+    width: 80%;
+    background-color: #0EB1D2;
+    border: 2px solid red;
+}
+
+.bi-arrow-left-circle-fill,
+.bi-arrow-right-circle-fill {
+    color: red;
+    font-size: 2rem;
 }
 
 /******************* CARRITO *******************/

@@ -11,6 +11,7 @@ let botonesEliminar = document.querySelectorAll('.carritoProductoEliminar');
 const botonVaciarCarrito = document.querySelector('.carritoAccionesVaciar');
 const botonComprar = document.querySelector('#carritoAccionesComprar');
 
+
 function cargarProductosCarrito() {
     
     if (productosEnCarrito && productosEnCarrito.length > 0) {
@@ -180,7 +181,6 @@ function comprarCarrito() {
         }
     })
 };
-
 
 
 function actualizarNumeroCarrito() {
