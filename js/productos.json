@@ -10,7 +10,8 @@
         },
         "precio": 15900,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "SIN STOCK"
     },
     {
         "id": "arduis-02",
@@ -23,7 +24,8 @@
         },
         "precio": 11790,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "arduis-03",
@@ -37,7 +39,8 @@
         "precio": 100000,
         "descontado": 60000,
         "descuento": "descontado",
-        "descuentoCSS": "SI"
+        "descuentoCSS": "SI",
+        "stock": "HAY STOCK"
     },
 
 
@@ -55,7 +58,8 @@
         },
         "precio": 7700,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "comps-02",
@@ -68,7 +72,8 @@
         },
         "precio": 10260,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "SIN STOCK"
     },
     {
         "id": "comps-03",
@@ -81,7 +86,8 @@
         },
         "precio": 820,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "comps-04",
@@ -94,7 +100,8 @@
         },
         "precio": 2730,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
 
 
@@ -112,7 +119,8 @@
         },
         "precio": 76870,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "drones-02",
@@ -125,7 +133,8 @@
         },
         "precio": 23720,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "drones-03",
@@ -138,7 +147,8 @@
         },
         "precio": 38140,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "drones-04",
@@ -151,7 +161,8 @@
         },
         "precio": 35000,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "SIN STOCK"
     },
 
 
@@ -169,7 +180,8 @@
         },
         "precio": 5900,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "SIN STOCK"
     },
     {
         "id": "otros-02",
@@ -183,7 +195,8 @@
         "precio": 9000,
         "descontado": 3600,
         "descuento": "descuento",
-        "descuentoCSS": "SI"
+        "descuentoCSS": "SI",
+        "stock": "HAY STOCK"
     },
     {
         "id": "otros-03",
@@ -196,7 +209,8 @@
         },
         "precio": 19000,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "SIN STOCK"
     },
     {
         "id": "otros-04",
@@ -209,7 +223,8 @@
         },
         "precio": 9900,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "otros-05",
@@ -222,7 +237,8 @@
         },
         "precio": 7900,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
 
 
@@ -241,7 +257,8 @@
         "precio": 90000,
         "descontado": 76500,
         "descuento": "descuento",
-        "descuentoCSS": "SI"
+        "descuentoCSS": "SI",
+        "stock": "SIN STOCK"
     },
     {
         "id": "tvAcess-02",
@@ -254,7 +271,8 @@
         },
         "precio": 157780,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "tvAcess-03",
@@ -267,7 +285,8 @@
         },
         "precio": 20000,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     },
     {
         "id": "tvAcess-04",
@@ -280,6 +299,7 @@
         },
         "precio": 9000,
         "descuento": "sinDescuento",
-        "descuentoCSS": "NO"
+        "descuentoCSS": "NO",
+        "stock": "HAY STOCK"
     }
 ]

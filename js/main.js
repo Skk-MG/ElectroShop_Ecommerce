@@ -34,6 +34,9 @@ function cargarProductos(productosElegidos) {
         div.classList.add('producto');
         div.innerHTML = `
         <img id="${producto.id}" class="productoImagen" src="${producto.imagen}" alt="${producto.altDesc}">
+        <div class="stock">
+            <p class="stockStatus">${producto.stock}</p>
+        </div>
         <div class="productoDetalles">
             <h3 class="productoTitulo">${producto.titulo}</h3>
             <div class="containerPrecio">
@@ -81,27 +84,42 @@ function agregarAlCarrito(evt) {
     const idBoton = evt.currentTarget.id;
     const productoAgregado = productos.find( producto => producto.id === idBoton );
 
-    if (productosEnCarrito.some( producto => producto.id === idBoton )) {
-        const productoIndex = productosEnCarrito.findIndex( producto => producto.id === idBoton );
-        productosEnCarrito[productoIndex].cantidad += 1;
+    if (productoAgregado.stock === "SIN STOCK") {
+
+        Toastify({
+            text: "No Queda Stock!",
+            duration: 2500,
+            close: true,
+            gravity: "top", 
+            position: "right", 
+            stopOnFocus: true,
+            style: { background: "linear-gradient(to right, #ff0000, #19191f)" },
+        }).showToast();
+
     } else {
-        productoAgregado.cantidad = 1;
-        productosEnCarrito.push(productoAgregado);
+
+        if (productosEnCarrito.some( producto => producto.id === idBoton )) {
+            const productoIndex = productosEnCarrito.findIndex( producto => producto.id === idBoton );
+            productosEnCarrito[productoIndex].cantidad += 1;
+        } else {
+            productoAgregado.cantidad = 1;
+            productosEnCarrito.push(productoAgregado);
+        }
+    
+        actualizarNumeroCarrito();
+    
+        localStorage.setItem("productosEnCarrito", JSON.stringify(productosEnCarrito));
+    
+        Toastify({
+            text: "Agregado al Carrito",
+            duration: 2500,
+            close: true,
+            gravity: "top", 
+            position: "right", 
+            stopOnFocus: true,
+            style: { background: "#0EB1D2" },
+        }).showToast();
     }
-
-    actualizarNumeroCarrito();
-
-    localStorage.setItem("productosEnCarrito", JSON.stringify(productosEnCarrito));
-
-    Toastify({
-        text: "Agregado al Carrito",
-        duration: 2500,
-        close: true,
-        gravity: "top", 
-        position: "right", 
-        stopOnFocus: true,
-        style: { background: "#0EB1D2" },
-    }).showToast();
 };
 
 function actualizarNumeroCarrito() {

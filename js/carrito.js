@@ -80,7 +80,10 @@ function actualizarBotonesEliminar() {
 function eliminarDelCarrito(evt) {
     const idBoton = evt.currentTarget.id;
     const index = productosEnCarrito.findIndex( producto => producto.id === idBoton );
-    productosEnCarrito.splice(index, 1);
+    productosEnCarrito[index].cantidad -= 1;
+
+    productosEnCarrito[index].cantidad < 1 && productosEnCarrito.splice(index, 1);
+    
     cargarProductosCarrito();
 
     localStorage.setItem("productosEnCarrito", JSON.stringify(productosEnCarrito));
@@ -169,15 +172,6 @@ function comprarCarrito() {
         
             actualizarNumeroCarrito();
     
-            // Swal.fire({
-            //     title: 'Gracias por tu compra!',
-            //     icon: 'success',
-            //     background: '#19191f',
-            //     color: '#ececec',
-            //     toast: true,
-            //     timer: 1500,
-            //     showConfirmButton: false
-            // })
             let timerInterval
 
             Swal.fire({
