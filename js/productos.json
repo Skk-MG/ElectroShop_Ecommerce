@@ -1,0 +1,285 @@
+[
+    {
+        "id": "arduis-01",
+        "titulo": "Arduino Uno Atmega328",
+        "altDesc": "Imagen ilustrativa de una placa Arduino Uno Atmega328",
+        "imagen": "./assets/arduino/01.webp",
+        "categoria": {
+            "nombre": "Placas Arduino",
+            "id": "arduis"
+        },
+        "precio": 15900,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "arduis-02",
+        "titulo": "Arduino Uno R3",
+        "altDesc": "Imagen ilustrativa de una placa Arduino Uno R3",
+        "imagen": "./assets/arduino/02.webp",
+        "categoria": {
+            "nombre": "Placas Arduino",
+            "id": "arduis"
+        },
+        "precio": 11790,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "arduis-03",
+        "titulo": "Kit Arduino Para Principiantes",
+        "altDesc": "Imagen ilustrativa de un Kit Arduino Para Principiantes",
+        "imagen": "./assets/arduino/03.webp",
+        "categoria": {
+            "nombre": "Placas Arduino",
+            "id": "arduis"
+        },
+        "precio": 100000,
+        "descontado": 60000,
+        "descuento": "descontado",
+        "descuentoCSS": "SI"
+    },
+
+
+
+
+
+    {
+        "id": "comps-01",
+        "titulo": "4 X Mini Servo Tower Pro Sg90 9g",
+        "altDesc": "Imagen ilustrativa de cuatro Mini Servo Tower Pro Sg90 9g",
+        "imagen": "./assets/componentes/01.webp",
+        "categoria": {
+            "nombre": "Componentes Electronicos",
+            "id": "comps"
+        },
+        "precio": 7700,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "comps-02",
+        "titulo": "Nodemcu Esp32 Wifi",
+        "altDesc": "Imagen ilustrativa de un Nodemcu Esp32 Wifi",
+        "imagen": "./assets/componentes/02.webp",
+        "categoria": {
+            "nombre": "Componentes Electronicos",
+            "id": "comps"
+        },
+        "precio": 10260,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "comps-03",
+        "titulo": "Pack 10 Resistencias 10k 1/4w",
+        "altDesc": "Imagen ilustrativa de un Pack de 10 Resistencias 10k 1/4w",
+        "imagen": "./assets/componentes/03.webp",
+        "categoria": {
+            "nombre": "Componentes Electronicos",
+            "id": "comps"
+        },
+        "precio": 820,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "comps-04",
+        "titulo": "Protoboard Breadboard 830",
+        "altDesc": "Imagen ilustrativa de una Protoboard Breadboard 830",
+        "imagen": "./assets/componentes/04.webp",
+        "categoria": {
+            "nombre": "Componentes Electronicos",
+            "id": "comps"
+        },
+        "precio": 2730,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+
+
+
+
+
+    {
+        "id": "drones-01",
+        "titulo": "Drone Con Camara Gadnic",
+        "altDesc": "Imagen ilustrativa de un Drone Con Camara Gadnic",
+        "imagen": "./assets/drones/01.webp",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 76870,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "drones-02",
+        "titulo": "Drone Landing Pad",
+        "altDesc": "Imagen ilustrativa de un Drone Landing Pad",
+        "imagen": "./assets/drones/02.webp",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 23720,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "drones-03",
+        "titulo": "Drone Plegable con Cámara HD",
+        "altDesc": "Imagen ilustrativa de un Drone Plegable Con Cámara HD",
+        "imagen": "./assets/drones/03.webp",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 38140,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "drones-04",
+        "titulo": "Drone Smart Tech Premium E88",
+        "altDesc": "Imagen ilustrativa de un Drone Smart Tech Premium E88",
+        "imagen": "./assets/drones/04.webp",
+        "categoria": {
+            "nombre": "Drones",
+            "id": "drones"
+        },
+        "precio": 35000,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+
+
+
+
+
+    {
+        "id": "otros-01",
+        "titulo": "Control Remoto Para Smart TV",
+        "altDesc": "Imagen ilustrativa de un Control Remoto Para Smart TV",
+        "imagen": "./assets/otros/01.webp",
+        "categoria": {
+            "nombre": "Miscelaneos",
+            "id": "otros"
+        },
+        "precio": 5900,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "otros-02",
+        "titulo": "Linterna Tactica Led Recargable",
+        "altDesc": "Imagen ilustrativa de una Linterna Tactica Led Recargable",
+        "imagen": "./assets/otros/02.webp",
+        "categoria": {
+            "nombre": "Miscelaneos",
+            "id": "otros"
+        },
+        "precio": 9000,
+        "descontado": 3600,
+        "descuento": "descuento",
+        "descuentoCSS": "SI"
+    },
+    {
+        "id": "otros-03",
+        "titulo": "Auriculares Inalambricos Gadnic",
+        "altDesc": "Imagen ilustrativa de unos Auriculares Inalambricos Gadnic",
+        "imagen": "./assets/otros/03.webp",
+        "categoria": {
+            "nombre": "Miscelaneos",
+            "id": "otros"
+        },
+        "precio": 19000,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "otros-04",
+        "titulo": "Repetidor Wifi Dinax 300 Mbps",
+        "altDesc": "Imagen ilustrativa de un Repetidor Wifi Dinax 300 Mbps",
+        "imagen": "./assets/otros/04.webp",
+        "categoria": {
+            "nombre": "Miscelaneos",
+            "id": "otros"
+        },
+        "precio": 9900,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "otros-05",
+        "titulo": "Cargador De Pilas AA/AAA Usb",
+        "altDesc": "Imagen ilustrativa de un Cargador De Pilas USB Doble A o Triple A",
+        "imagen": "./assets/otros/05.webp",
+        "categoria": {
+            "nombre": "Miscelaneos",
+            "id": "otros"
+        },
+        "precio": 7900,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+
+
+
+
+
+    {
+        "id": "tvAcess-01",
+        "titulo": "TV 24'' Kodak HD",
+        "altDesc": "Imagen ilustrativa de una TV de 24 pulgadas Kodak HD",
+        "imagen": "./assets/tvAcess/01.webp",
+        "categoria": {
+            "nombre": "TVs & Accesorios",
+            "id": "tvAcess"
+        },
+        "precio": 90000,
+        "descontado": 76500,
+        "descuento": "descuento",
+        "descuentoCSS": "SI"
+    },
+    {
+        "id": "tvAcess-02",
+        "titulo": "Smart TV Hisense 43''",
+        "altDesc": "Imagen ilustrativa de un Smart TV Hisense de 43 pulgadas",
+        "imagen": "./assets/tvAcess/02.webp",
+        "categoria": {
+            "nombre": "TVs & Accesorios",
+            "id": "tvAcess"
+        },
+        "precio": 157780,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "tvAcess-03",
+        "titulo": "Kit Antena TDA TV Digital HD",
+        "altDesc": "Imagen ilustrativa de un Kit Antena TDA TV Digital HD",
+        "imagen": "./assets/tvAcess/03.webp",
+        "categoria": {
+            "nombre": "TVs & Accesorios",
+            "id": "tvAcess"
+        },
+        "precio": 20000,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    },
+    {
+        "id": "tvAcess-04",
+        "titulo": "Soporte pared para TV/Monitor",
+        "altDesc": "Imagen ilustrativa de un Soporte pared para TV o Monitor",
+        "imagen": "./assets/tvAcess/04.webp",
+        "categoria": {
+            "nombre": "TVs & Accesorios",
+            "id": "tvAcess"
+        },
+        "precio": 9000,
+        "descuento": "sinDescuento",
+        "descuentoCSS": "NO"
+    }
+]

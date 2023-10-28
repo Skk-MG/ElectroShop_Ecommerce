@@ -169,15 +169,37 @@ function comprarCarrito() {
         
             actualizarNumeroCarrito();
     
+            // Swal.fire({
+            //     title: 'Gracias por tu compra!',
+            //     icon: 'success',
+            //     background: '#19191f',
+            //     color: '#ececec',
+            //     toast: true,
+            //     timer: 1500,
+            //     showConfirmButton: false
+            // })
+            let timerInterval
+
             Swal.fire({
-                title: 'Gracias por tu compra!',
-                icon: 'success',
-                background: '#19191f',
-                color: '#ececec',
-                toast: true,
-                timer: 1500,
-                showConfirmButton: false
-            })
+            title: 'Gracias por tu compra!',
+            html: 'Seras redireccionado a la pagina de pago en <strong class="contador"></strong> segundos.',
+            timer: 5000,
+            timerProgressBar: true,
+            background: '#19191f',
+            color: '#ececec',
+
+            didOpen: () => {
+                Swal.showLoading()
+
+                timerInterval = setInterval(() => {
+                    Swal.getHtmlContainer().querySelector('strong')
+                        .textContent = (Swal.getTimerLeft() / 1000)
+                        .toFixed(0)
+                    }, 100)
+                },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }})
         }
     })
 };

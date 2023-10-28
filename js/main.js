@@ -1,3 +1,12 @@
+let productos = [];
+
+fetch('./js/productos.json')
+    .then( response => response.json() )
+    .then( data => {
+        productos = data;
+        cargarProductos(productos);
+    })
+
 const contenedorProductos = document.querySelector('#contenedorProductos');
 const botonesCategorias = document.querySelectorAll('.botonCategoria');
 const tituloPrincipal = document.querySelector('#tituloPrincipal');
@@ -27,7 +36,10 @@ function cargarProductos(productosElegidos) {
         <img id="${producto.id}" class="productoImagen" src="${producto.imagen}" alt="${producto.altDesc}">
         <div class="productoDetalles">
             <h3 class="productoTitulo">${producto.titulo}</h3>
-            <p class="productoPrecio">$${producto.precio}</p>
+            <div class="containerPrecio">
+            <p class="productoPrecio ${producto.descuento}">$${producto.descontado}</p>
+            <p class="productoPrecio ${producto.descuentoCSS}">$${producto.precio}</p>
+            </div>
             <button class="productoAgregar" id="${producto.id}">Agregar</button>
         </div>
         `
@@ -36,8 +48,6 @@ function cargarProductos(productosElegidos) {
 
     actualizarBotonesAgregar();
 };
-
-cargarProductos(productos);
 
 botonesCategorias.forEach( boton => {
 
