@@ -88,7 +88,7 @@ function agregarAlCarrito(evt) {
 
         Toastify({
             text: "No Queda Stock!",
-            duration: 2500,
+            duration: 1500,
             close: true,
             gravity: "top", 
             position: "right", 
@@ -112,7 +112,7 @@ function agregarAlCarrito(evt) {
     
         Toastify({
             text: "Agregado al Carrito",
-            duration: 2500,
+            duration: 1500,
             close: true,
             gravity: "top", 
             position: "right", 

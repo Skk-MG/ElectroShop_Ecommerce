@@ -30,8 +30,7 @@ function cargarProductosCarrito() {
             <img class="carritoProductoImagen" src="${producto.imagen}" alt="${producto.altDesc}">
     
             <div class="carritoProductoTitulo">
-                <small>Titulo</small>
-                <h3>${producto.titulo}</h3>
+                <h3 class="productoCarritoNombre">${producto.titulo}</h3>
             </div>
     
             <div class="carritoProductoCantidad">
@@ -92,7 +91,7 @@ function eliminarDelCarrito(evt) {
 
     Toastify({
         text: "Producto Eliminado",
-        duration: 2500,
+        duration: 1500,
         close: true,
         gravity: "top", 
         position: "right", 

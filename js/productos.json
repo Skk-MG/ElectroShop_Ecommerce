@@ -77,8 +77,8 @@
     },
     {
         "id": "comps-03",
-        "titulo": "Pack 10 Resistencias 10k 1/4w",
-        "altDesc": "Imagen ilustrativa de un Pack de 10 Resistencias 10k 1/4w",
+        "titulo": "Pack Resistencias 10k",
+        "altDesc": "Imagen ilustrativa de un Pack Resistencias 10k",
         "imagen": "./assets/componentes/03.webp",
         "categoria": {
             "nombre": "Componentes Electronicos",

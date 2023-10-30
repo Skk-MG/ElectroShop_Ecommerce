@@ -52,10 +52,12 @@ aside {
 }
 
 .logo {
-    font-weight: 400;
-    font-size: 1.3rem;
-    color: var(--clr-main-light);
+    width: 70%;
 }
+
+.text-focus-in{-webkit-animation:text-focus-in 0.5s cubic-bezier(.55,.085,.68,.53) both;animation:text-focus-in 0.5s cubic-bezier(.55,.085,.68,.53) both}
+
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
 
 .menu {
     display: flex;
@@ -342,8 +344,8 @@ main {
     border-radius: 1rem;
 }
 
-.carritoProducto small {
-    font-size: 0.75rem; 
+.productoCarritoNombre {
+    font-size: 1.1rem;
 }
 
 .carritoProductoEliminar {
@@ -627,6 +629,14 @@ main {
 
     .volverAtras {
         font-size: 2.5rem;
+    }
+
+    .query {
+        display: none;
+    }
+
+    .contenedorCarrusel{
+        width: 70%;
     }
 
     /* Carrito mediaQuery */
